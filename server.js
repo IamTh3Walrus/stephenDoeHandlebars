@@ -1,12 +1,12 @@
 //Requires the various node modules used with the app.
 var express = require('express');
-var connection = require('./config/connection');
+//var connection = require('./config/connection');
 console.log(connection);
 
 var app = express();
 
 //Connect to MongoBD to recieve email messages.
-var mongo = require('Mongodb');
+//var mongo = require('Mongodb');
 
 //Blocks header from containing information about the server.
 app.disable('x-powered-by');
